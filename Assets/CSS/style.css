@@ -1,0 +1,26 @@
+body {
+    background-color: #070707;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex ;
+    color: #9d9f9f;
+    font-family: Ubuntu;
+}
+li {
+    display: inline-block;
+    margin: 0 20px 0 20px;
+    align-items: center;
+}
+.LOGO {
+    font-family: monoton;
+    font-size: 50px;
+}
+nav {
+    display: inline;
+    
+    padding: 20px;
+    align-items: center;
+}
