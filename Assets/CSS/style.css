@@ -3,11 +3,12 @@ body {
     margin: 0;
     padding: 0;
 }
-
 header {
     display: flex ;
     color: #9d9f9f;
     font-family: Ubuntu;
+    justify-content: space-between;
+    border-bottom: 2px solid #AC8059
 }
 li {
     display: inline-block;
@@ -17,10 +18,93 @@ li {
 .LOGO {
     font-family: monoton;
     font-size: 50px;
+    margin: 0 30px 0 0;
 }
 nav {
-    display: inline;
-    
-    padding: 20px;
+    display: flex;
+    padding: 10px;
     align-items: center;
+    
+}
+div {
+    display: flex;
+    align-items: center; 
+    margin-left: 50px;
+}
+.SEND {
+    height: 40px;
+    width: 40px;
+    margin: 0 15px 0 15px;
+}  
+
+.BURGER {
+    height: 40px;
+    width: 40px;
+    margin: 0 15px 0 15px;
+}
+img {
+    display: inline-flex;
+    border-radius: 10px;
+    height: 500px;
+    margin: 10px 5px 0 0 ;
+    
+}
+main {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+    
+.left {
+    position: relative;
+    color: #f4f7f8;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 130px 100px 20px 50px;
+    left: 50px;
+}
+.right {
+    position: relative;
+    left: 120px;
+}
+.KITCHEN {
+
+    position: absolute;
+    color: #f4f7f8;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    bottom:2px;
+    right: 240px;
+}
+.BARTH {
+    position: absolute;
+    color: #f4f7f8;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    bottom:2px;
+    right: 570px;
+}
+.BED {
+    position: absolute;
+    color: #f4f7f8;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    bottom:2px;
+    left: 15px;
+}
+.Shop {
+    position: absolute;
+    color: #f4f7f8;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.lil {
+    color: #AC8059;
+}
+.junge {
+    display: inline-block;
+    justify-content: space-between;
 }
